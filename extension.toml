@@ -1,0 +1,11 @@
+id = "glyf-language-server"
+name = "Glyf"
+description = "Emmet-inspired HTML and JSX abbreviation expansion via glyf-lsp."
+version = "0.1.0"
+schema_version = 1
+authors = ["Leo Durillon"]
+repository = "https://github.com/LeoDurillon/glyf-zed"
+
+[language_servers.glyf]
+name = "Glyf Language Server"
+languages = ["HTML", "JavaScript", "TypeScript", "TSX"]
