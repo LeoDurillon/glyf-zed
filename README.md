@@ -20,13 +20,31 @@ is downloaded automatically on first use.
 
 ## Installation
 
-Search for **Glyf** in the Zed extension marketplace, or run:
+> **Not yet published to the Zed marketplace** — install as a dev extension
+> while the submission is pending.
+
+### Dev extension (current)
+
+1. Make sure Rust is installed via [rustup](https://rustup.rs) — Zed requires
+   it to build extensions locally.
+2. Clone this repository:
+   ```sh
+   git clone https://github.com/LeoDurillon/zed-glyf
+   ```
+3. In Zed open the extensions panel (`zed: extensions`) and click
+   **Install Dev Extension**.
+4. Select the cloned directory.
+
+On first use the extension automatically downloads the `glyf-lsp` binary for
+your platform — no manual setup needed.
+
+### Marketplace (coming soon)
+
+Once the submission is approved you will be able to install directly:
 
 ```
-zed: extensions
+zed: extensions  →  search "glyf"
 ```
-
-and search for `glyf`.
 
 ---
 
