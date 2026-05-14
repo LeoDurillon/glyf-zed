@@ -2,7 +2,7 @@ use std::path::Path;
 
 use zed_extension_api::{self as zed, LanguageServerId, Result, serde_json};
 
-const LSP_VERSION: &str = "0.1.0";
+const LSP_VERSION: &str = "0.2.0";
 const RELEASE_BASE: &str = "https://github.com/LeoDurillon/glyf-lsp/releases/download";
 
 struct GlyfExtension {

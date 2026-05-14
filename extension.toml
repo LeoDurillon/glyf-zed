@@ -1,7 +1,7 @@
 id = "glyf-language-server"
 name = "Glyf"
 description = "Emmet-inspired HTML and JSX abbreviation expansion via glyf-lsp."
-version = "0.1.0"
+version = "0.2.0"
 schema_version = 1
 authors = ["Leo Durillon"]
 repository = "https://github.com/LeoDurillon/glyf-zed"
